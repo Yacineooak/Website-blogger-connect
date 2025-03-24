@@ -50,10 +50,11 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-xl md:text-2xl font-bold text-thinkminnt-blue">
-              ThinkMinnt
-            </span>
-            <span className="text-thinkminnt-green font-medium ml-1">Foundation</span>
+            <img 
+              src="/lovable-uploads/ef48a8ab-9efa-4ae7-b5f9-627bca084039.png" 
+              alt="ThinkMinnt Foundation" 
+              className="h-10 md:h-12"
+            />
           </Link>
 
           {/* Desktop Navigation */}

@@ -10,11 +10,12 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Organization Info */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center">
-              <span className="text-xl font-bold text-thinkminnt-blue">
-                ThinkMinnt
-              </span>
-              <span className="text-thinkminnt-green font-medium ml-1">Foundation</span>
+            <Link to="/" className="block">
+              <img 
+                src="/lovable-uploads/ef48a8ab-9efa-4ae7-b5f9-627bca084039.png" 
+                alt="ThinkMinnt Foundation" 
+                className="h-10"
+              />
             </Link>
             <p className="text-sm text-gray-600">
               Empowering lives through technology education, mentorship, and innovation.
